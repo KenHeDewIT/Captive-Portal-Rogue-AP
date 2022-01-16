@@ -1,0 +1,15 @@
+useradd <user>
+usermod -a -G <sudogroup>
+
+
+wget https://github.com/<user>/<repo>/archive/<branch>.tar.gz
+
+using .tgz 
+
+wget https://github.com/<user>/<repo>/archive/<branch>.tar.gz
+
+
+Using cURL
+curl -L https://github.com/<user>/<repo>/archive/<branch>.zip
+
+For even more control, go to github webpage and just the download address for any download link and use that address.
